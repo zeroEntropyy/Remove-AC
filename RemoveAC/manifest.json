@@ -1,0 +1,13 @@
+{
+          "name": "Remove accepted problems",
+          "version": "1.0",
+          "description": "Remove Accepted problems from codeforces!",
+          "permissions": ["*://*.codeforces.com/problemset*"],
+          "content_scripts": [
+                    {
+                              "matches": ["*://*.codeforces.com/problemset*"],
+                              "js": ["background.js"]
+                    }
+          ],
+          "manifest_version": 2
+        }
