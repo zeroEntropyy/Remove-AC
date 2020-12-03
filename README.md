@@ -1,4 +1,4 @@
-Remove solved problems from codeforces problemset.
+Hide solved problems from codeforces problemset.
 
 Usage: 
 1. Download the directory.
